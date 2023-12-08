@@ -1,5 +1,15 @@
 // ----- TEMPLATE LITERALS
 
+// const firstName = "Daniel";
+// const lastName = "Braaksma"
+// const age = 34;
+
+// const sentence = 'My name is' + firstName + " " + lastName + " and I am " + age + " years old";
+// // console.log(sentence);
+// const easierSentence = `My name is ${firstName} ${lastName} and I am ${age} years old`;
+// console.log(easierSentence);
+
+
 /* function highlight(strings, ...values) {
   let str = '';
   strings.forEach((string, i) => {
@@ -19,12 +29,22 @@ console.log(sentence);
 document.getElementById("text").innerHTML = sentence; */
 
 // ------ SCOPE REVIEW
+// scope = what variables you have access to
+
+
+// global scope
+// let y = 1;
+// const x = "global"
+
 
 // function scope (){
+//   // function scope
 //   let y = 1;
 
 //   if (true){
-//   let y = 2;
+//   // if block scope
+//   y = 2;
+//   console.log(x);
 //   }
 
 //   console.log(y);
@@ -32,12 +52,18 @@ document.getElementById("text").innerHTML = sentence; */
 
 // scope();
 
-
-
 // let hello = "hi"
 
 // function sayHi (isSpanish){
+
+//     if(!isSpanish) {
+//        throw new Error("must pass a boolean")
+//     }
+
+//     console.log(isSpanish);
 // 	let hello = "bounjour";
+
+
 
 // 	if (isSpanish){
 // 		let hello = "hola"
@@ -50,9 +76,9 @@ document.getElementById("text").innerHTML = sentence; */
 // console.log(sayHi());
 // console.log(sayHi(true));
 
-
 // DESTRUCTURING
 
+// STRING METHODS
 
 // ASSIGNMENT
 // create a function that accepts an object and prints out all the values into one sentence
